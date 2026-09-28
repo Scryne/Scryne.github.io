@@ -1,0 +1,6 @@
+:HL["/_next/static/chunks/19o5daprpzmbo.css","style"]
+:HL["/_next/static/media/Archivo_tr-s.p.0o16iu788kejc.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/IBMPlexMono_400_tr-s.p.0jo6k2_j0806e.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/IBMPlexMono_500_tr-s.p.3zmqaa3opnx89.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/g/mythatlas/harita-1440.webp","image",{"imageSrcSet":"/g/mythatlas/harita-800.webp 800w, /g/mythatlas/harita-1440.webp 1440w","imageSizes":"(min-width: 1360px) 1280px, 100vw","fetchPriority":"high"}]
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"(tr)","param":null,"prefetchHints":4208,"slots":{"children":{"name":"projeler","param":null,"prefetchHints":4192,"slots":{"children":{"name":"slug","param":{"type":"d","key":"mythatlas","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}}}},"staleTime":300,"buildId":"IzQIAF07r4At68ALsetbi"}

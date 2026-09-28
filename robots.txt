@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://scryne.github.io/sitemap.xml
