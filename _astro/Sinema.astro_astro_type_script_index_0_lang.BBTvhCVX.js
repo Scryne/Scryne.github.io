@@ -4483,9 +4483,13 @@ void main() {
       + textureLod(uDoku, vUv + vec2(o.x, -o.y), lod).rgb) * 0.25;
   }
   c *= uParlak;
+  // Açık arayüz: parlak alan dizle bastırılır, ışıma eşiğinin altında kalır; koyu yazı ve çizgi olduğu gibi durur.
+  float isik = dot(c, vec3(0.2126, 0.7152, 0.0722));
+  float acik = smoothstep(0.45, 0.9, isik);
+  c *= mix(1.0, 0.6, acik);
   // Kenarda bulutsunun renginde ince ışık: ekran o sistemin ışığını yansıtır.
   float kenar = smoothstep(-0.035, 0.0, d) * maske;
-  c += kenar * uKenarRenk * 0.9;
+  c += kenar * uKenarRenk * mix(0.9, 0.3, acik);
   float derin = length(vGorus);
   float sis = 1.0 - exp(-pow(derin * uSisYog, 2.0));
   c = mix(c, uSis, sis);
